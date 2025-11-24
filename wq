@@ -1,0 +1,643 @@
+[33mcommit 5ebdc7923bedd58529ff7999f8468da79939f3d5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mupstream/main[m[33m)[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Nov 18 23:58:30 2025 +0400
+
+    sorting labs
+
+[33mcommit b401a0b551d2c9111b861935cb49485e9503b27c[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Nov 18 23:06:11 2025 +0400
+
+    sorting labs, fixing refresh 404 not found, fixing watch video wrong redirection
+
+[33mcommit 59b26176c20a981c4fd2c1431647dc35ad25453a[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Mon Nov 17 12:01:38 2025 -0500
+
+    Update announcements.py
+    
+    To change order of listing announcements from newest first to oldest last instead of current state which is oldest first to newest last.
+    --- Needs Verification Before Deployment ----
+    --- We need to delete test announcements from Database ---
+
+[33mcommit a092023fd459391dfa207058d2402e327ea37bdd[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Sat Nov 15 22:04:22 2025 -0500
+
+    Update Page Title Videos.jsx
+    
+    //Fix Title: Just OTSec-Hub
+
+[33mcommit 5edf7796019ea0801c07200d9ab357df1f6796c3[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Sat Nov 15 21:52:25 2025 -0500
+
+    Update Page Title Home.jsx
+
+[33mcommit 3d4f37646dcded3600453aecc2d83381a27671e7[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Sat Nov 15 21:49:57 2025 -0500
+
+    Update Title Page Discussions.jsx
+
+[33mcommit 57974430c4815a31287a82c1b057d11cfe7af98b[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Sat Nov 15 21:48:40 2025 -0500
+
+    Update Page Title AllCommunityVideos.jsx
+    
+    Fixed Page Title
+
+[33mcommit 3d3fd57242c98faffd3dcef19b04f925eeb22743[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Sat Nov 15 21:46:14 2025 -0500
+
+    Update Page title Announcements.jsx
+    
+    Fixed page title
+
+[33mcommit 7d0297c886f4313a7180be5bf24f867c6a73e472[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Thu Nov 13 09:08:41 2025 -0500
+
+    Update AllLabs.jsx Labs Description
+    
+    Added full description for ICS labs with link to Haithem's repository
+    
+    Text added:"Industrial Control Systems (ICS) are of paramount importance nowadays. In this series of labs, we will help you understand what a Programmable Logic Controller (PLC) is, what ICS are, the security vectors of ICS, how PLC binaries differ from standard binaries, and how to reverse engineer and fuzz them. All materials could be found on our Github repository : https://github.com/HaithemLamri/OTSsec-Hub/tree/main."
+
+[33mcommit 018c2d9111ff54f50b1a151fed1afbd9c65e316a[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Thu Nov 13 09:04:32 2025 -0500
+
+    Updated contact us message Home.jsx
+    
+    Contact us message now links to contact page instead of Professor's email
+
+[33mcommit 741216125e3fe25d080853d0367931b29eec2a53[m
+Author: mohamed-ela <87230750+mohamed-ela@users.noreply.github.com>
+Date:   Wed Nov 12 13:31:33 2025 -0500
+
+    Commented out Social Media Links and Icons
+    
+    Requested to be removed by the project owner due to the fact that otsec-hub.com doesn't have any social media presence.
+
+[33mcommit 8c16ad417efc7e594a0e67dbc32e103b2bbf8d48[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 21:42:11 2025 +0400
+
+    fix loader
+
+[33mcommit 4890fcc16e272cdfd34a3a6857f2d2be969a8c21[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 21:37:41 2025 +0400
+
+    fix loader
+
+[33mcommit 39063c879f20be4657a159e23ace52bcb66aa4a0[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 21:32:16 2025 +0400
+
+    fix loader
+
+[33mcommit 1f73cd448b0cddfe397119e988294a6da1e4450b[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 21:14:40 2025 +0400
+
+    major fix for community
+
+[33mcommit a496fc053faf62a2134589dd3c86562d098362f4[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 18:51:23 2025 +0400
+
+    test exercises
+
+[33mcommit ee4bc5e425e1156dab4d3504ec7e1f244591caa7[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 18:27:58 2025 +0400
+
+    test exercises
+
+[33mcommit 2c40df8810e5f8888ec048f82d627e06f456b757[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 18:18:23 2025 +0400
+
+    fix communityLabs
+
+[33mcommit 996d541c30e76d021cc121dbdb81bfbf4a9eddc3[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 31 15:47:01 2025 +0400
+
+    configure announcements
+
+[33mcommit 978b94e7827ee5e3c5fb37dde34b2ca07cc9359e[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 22:53:37 2025 +0400
+
+    fix cors and metatags
+
+[33mcommit d8eda28d8d6a5d4fa89c3ea02b138b880775e046[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 22:05:37 2025 +0400
+
+    fix responsive, nav, contact us, remove unused files and code
+
+[33mcommit 1d59fba74a33ef80b1c4a95ba7ce4a25514659bc[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 20:43:17 2025 +0400
+
+    fix labs2
+
+[33mcommit cae96957f04a453e2c05a917a327bd9a45f3a872[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 20:30:39 2025 +0400
+
+    fix labs
+
+[33mcommit 600008bf5166e5afa972ca72c393fa7fc5ad94b4[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 09:32:32 2025 +0400
+
+    fix all labs error display
+
+[33mcommit 63e14d92367ab1a99cd1aa93975a55654288ca29[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 00:56:21 2025 +0400
+
+    removed console.log
+
+[33mcommit 667ea654b55e03d5f4d4193a9d8cf766f9cdc0f7[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 00:40:49 2025 +0400
+
+    removed console.log
+
+[33mcommit b9d2adad80eae7cc59a63041a3f225396bc62d4c[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Aug 27 00:19:15 2025 +0400
+
+    fix verification email
+
+[33mcommit 68ab1dfa7adc125c65a9216ba1e6aed17519e462[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Aug 26 01:11:46 2025 +0400
+
+    fix cors
+
+[33mcommit a08ef731714e8ede04ed126b6370a4d3dd7f5a2b[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Aug 26 00:43:43 2025 +0400
+
+    fix vercel url
+
+[33mcommit c97b20647d7133c841045a7a9f177077b7d891cf[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Aug 26 00:31:45 2025 +0400
+
+    add vercel analytics
+
+[33mcommit 78c5c79d39287b819b806daf662ab74c3e3043d8[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Tue Aug 26 00:17:29 2025 +0400
+
+    added pagination, user authentication, clean folders
+
+[33mcommit 1dbdf6fc92841ba122b44d3c5ce450ee9d552483[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Thu Aug 14 01:08:54 2025 +0400
+
+    ✅ admin, community and profile (backend)
+
+[33mcommit 826d02172e5d2ac8d393ef2b37f7139acd27eba6[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Thu Aug 14 01:08:08 2025 +0400
+
+    ✅ admin, community and profile
+
+[33mcommit 7f0122ede8072c43bfdf1633d9d1c28e9442cade[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sun Aug 10 18:43:09 2025 +0400
+
+    completed community features - admin dashboard?
+
+[33mcommit 9d909268af31f156a529cdbc53f37b2ea15f0e08[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Fri Aug 8 21:11:23 2025 +0400
+
+    finish all OTSec-content will make community ones
+
+[33mcommit e03f8671bc920e33f04a5cbb947cb0f9951bc682[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Thu Jul 31 00:05:54 2025 +0400
+
+    change static labs to dynamic ones
+
+[33mcommit 1efa65fc69c7a38fa0f62d3057b60bf13bf4d552[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Thu Jul 17 09:58:04 2025 +0400
+
+    fix video questions editing and enhance tracking progress in dashboard
+
+[33mcommit 294d8cacc6a9e9ead30bb9c4f21274961d36a4db[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sat Jul 12 15:37:11 2025 +0400
+
+    add/edit/delete/view videos with questions are done
+
+[33mcommit 0129bf9f3698de493cbcbdebd042b6fd0704230d[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sat Jul 5 22:59:12 2025 +0400
+
+    track progress (videos viewed only)
+
+[33mcommit a733382190d929cbed86fb591b5f4a88729999b0[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Sat Jul 5 18:48:46 2025 +0400
+
+    videoManagment trackProgress videos videoDetails pages
+
+[33mcommit a6c7b34490e1264746ce6cbf466de1c5ed048dd1[m
+Merge: 45b2e39 e130063
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Mon Jun 30 03:30:35 2025 +0400
+
+    Merge branch 'main' of github.com:MaNn0/OTSec-Hub.github.io
+
+[33mcommit 45b2e3930052d805358c0211ba51ca6908ac9294[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Mon Jun 30 03:30:19 2025 +0400
+
+    updated requirements.txt - email verification done
+
+[33mcommit e130063e194c85c0090acf1f5a656338287010bf[m
+Author: Abdelrahman Ebeid <71596240+MaNn0@users.noreply.github.com>
+Date:   Mon Jun 30 03:27:39 2025 +0400
+
+    Update README.md
+
+[33mcommit d65a02751b94deb2631ce733fb68fdd28d9c88e3[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Mon Jun 30 03:24:31 2025 +0400
+
+    dashboard user managment add  educator done & action buttons done
+
+[33mcommit 4f5792086208ba0c05aaf00df1562f6cd3313b5e[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Fri Jun 27 00:47:05 2025 +0400
+
+    fix
+
+[33mcommit 42e07d7fb8ac727279d3553dceb4b324adf4c68b[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Fri Jun 27 00:38:45 2025 +0400
+
+    add dashboard
+
+[33mcommit cd951e693a40460d45878fe80b11f52e49b41d22[m
+Author: Abdelrahman Ebeid <71596240+MaNn0@users.noreply.github.com>
+Date:   Thu Jun 26 22:25:55 2025 +0400
+
+    Update README.md
+
+[33mcommit c6d64343672e360158f577db07538a1a519821e3[m
+Author: Abdelrahman Ebeid <71596240+MaNn0@users.noreply.github.com>
+Date:   Thu Jun 26 22:24:58 2025 +0400
+
+    Update README.md
+
+[33mcommit b67dae0e2a5682e0df417b73372ea3f95f80e02d[m
+Author: MaNn0 <mlolo80013@gmail.com>
+Date:   Wed Jun 18 21:35:01 2025 +0400
+
+    Add Gemini LLM frontend under /app
+
+[33mcommit 0b5c40b7faa59f510f41862ecee4098f30993e1e[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 16 23:08:35 2025 +0400
+
+    add knowledge check quizzes to the labs
+
+[33mcommit 36aafd7e5d3c2482e58612d488513fdc278dff8f[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 16 13:06:19 2025 +0400
+
+    added quiz checks on lab 0
+
+[33mcommit 918042dab09b57ea7c93fb7f31d1d142e2453499[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Sat Jun 14 12:26:37 2025 +0400
+
+    slight page updates
+
+[33mcommit 99d2468538e63e8bfa459f6de9ff4edf9ec1cee7[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu Jun 12 23:55:10 2025 +0400
+
+    get rid of knowledge check for now
+
+[33mcommit 933f69673e924cfb6a7aacab92c6a052f9c21e4d[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu Jun 12 11:38:46 2025 +0400
+
+    finished exercise-001
+
+[33mcommit 6f96cc12448ea66ad358718e877aa63fcb93d55b[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed Jun 11 14:40:13 2025 +0400
+
+    adding exercises subpage under resources; creating first exercise page
+
+[33mcommit 1a5d3d89a708ffd66b6b68037451ecf80017917f[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 23:39:24 2025 +0400
+
+    add proper lab card descriptions
+
+[33mcommit 717be68591983344a4176719728eb7f35bdf6fe3[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 23:26:30 2025 +0400
+
+    update photos on lab pages 5 and 6
+
+[33mcommit 6ee0fc0a12290a7fbada73f8a5c3adb2cd58019e[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 23:09:10 2025 +0400
+
+    minor adjustments
+
+[33mcommit 102f71bb0bb10bd87eaa24c0f8b1e83af015e042[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 22:58:24 2025 +0400
+
+    update information on lab 5 page
+
+[33mcommit a6b89bd6708abf1319203597e71341ce2dab27f7[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 15:04:43 2025 +0400
+
+    update lab 0 and lab 3 pages opening photo
+
+[33mcommit ae5f859fea26b72ca66408761504457dddb7f553[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 14:16:19 2025 +0400
+
+    add lab 0 page
+
+[33mcommit 6dd3852f56bb0d7da1ff9d03054e581a3f58b2da[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 12:58:49 2025 +0400
+
+    finish lab 6 page (adding content)
+
+[33mcommit 689208bd800d1d8a1b85466943cf8fcd6000288e[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 10 09:47:18 2025 +0400
+
+    update lab5 page (completed)
+
+[33mcommit ac55ccff058a09aa82662dd08dd2f3f11ed62156[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 9 17:06:05 2025 +0400
+
+    add submission details to labs 1-4
+
+[33mcommit a96bd339c94de61b33e669fded5b44e25503f71e[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 9 16:12:56 2025 +0400
+
+    update lab pages 1-4
+
+[33mcommit b479523fb95d4c98d8c65d885dbfec845452e6af[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 9 15:00:49 2025 +0400
+
+    update lab 2, lab 3, and begin updating lab 4
+
+[33mcommit 36da78149265af299e73b9c452b235448fcc4c85[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 9 13:17:17 2025 +0400
+
+    update lab1 and part of lab2 pages
+
+[33mcommit 509f49620aec5bc273d4c2d1dc2faf07667df868[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 9 10:18:35 2025 +0400
+
+    update benchmarks related files
+
+[33mcommit 0264f86a1d6469a7aaa4955c237b2bb4cc5f19e1[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Sun Jun 8 00:10:59 2025 +0400
+
+    add subpage element to the
+    benchmarks page
+
+[33mcommit 51d4579a930971ae6d6a033669db212de4df7e54[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed Jun 4 13:19:52 2025 +0400
+
+    remove scroll down button on home page
+
+[33mcommit 10fad4ef405fed44750505f43b36774c40f853fc[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed Jun 4 13:11:17 2025 +0400
+
+    syntax details on announcments and weekly discussions pages
+
+[33mcommit db84b632189932bed1d93de9d0bcf646e902e2f1[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed Jun 4 13:06:56 2025 +0400
+
+    update logo
+
+[33mcommit 0f1e908010377c0879d4d19629d29ec888dc5947[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 3 23:24:17 2025 +0400
+
+    update dataset example names
+
+[33mcommit 03d8982bbe5c0ba46a95923ccd2de2bae44e9a60[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 3 23:14:27 2025 +0400
+
+    add benchmark page and create a datasets file to create the datasets info and links
+
+[33mcommit dbe5ba1ef497ba98d596690948226aff73a51185[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 3 13:35:14 2025 +0400
+
+    add link to reference sample button on lab 1, create Datasets subpage under resources
+
+[33mcommit d56abc6305e420b121187fe2aef237b82ac936ac[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue Jun 3 11:06:36 2025 +0400
+
+    add labs 2-6 pages and update zip link in lab 1 page
+
+[33mcommit 79975976d51dac25f6eef47f3f1f7bc9cbc0242e[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 2 23:09:43 2025 +0400
+
+    add logo
+
+[33mcommit 7851605b7c7ab807aed49178983579187001a515[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 2 10:56:31 2025 +0400
+
+    change path to lab1 to /All-Labs/Lab1
+
+[33mcommit e4a0a3149ff19d9783eeed6f60b7958e61f1a4d8[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon Jun 2 10:39:50 2025 +0400
+
+    update lab1 page look, change all-projects tab to all-labs
+
+[33mcommit 0fed9775d15697114dd887400b605d2e036f0093[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 14:37:27 2025 +0400
+
+    add compressed lab 1 image (.webp) for loading purposes
+
+[33mcommit c52a2b2d929ffff2ed961f1ea038d2831dd504f7[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 14:29:14 2025 +0400
+
+    remove social links from footer
+
+[33mcommit 00d6d281e78baa9d0aada0ffa2e96ae2af9a0be3[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 14:19:05 2025 +0400
+
+    add image on lab 1 page
+
+[33mcommit 5a52d50a18e02383ff762d98bf40f29fe27b9b1a[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 13:56:17 2025 +0400
+
+    update announcement and weekly discussions pages (information and formatting)
+
+[33mcommit b8414340615ec31c5228b32273016f75650a7b64[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 13:20:44 2025 +0400
+
+    update announcements page format/details
+
+[33mcommit c35d7555fb9a042db97693e0eed28ae1c73c2842[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 13:09:22 2025 +0400
+
+    update introductionPage formatting
+
+[33mcommit e1088e2ee0872bd7f9a55d96f672d4f1c536566f[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 12:49:14 2025 +0400
+
+    add lab1 page information (except image)
+
+[33mcommit f755dd5e7265a293db37ed8060c77e80ce57e0b7[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 29 11:04:30 2025 +0400
+
+    add news and welcome sections of home page
+
+[33mcommit c42b2df05895c5c8c4ad403ff62b48521dab5770[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed May 28 13:21:51 2025 +0400
+
+    update navBar page links, update all labs and lab1 page features
+
+[33mcommit 037532bffbf92a2c956df624b6482998da5775fd[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue May 27 23:52:17 2025 +0400
+
+    add weekly discussions and contact pages
+
+[33mcommit 5dabfec8913f0c776721413d6db6663c5e079fea[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue May 27 23:21:31 2025 +0400
+
+    add accouncements page
+
+[33mcommit 034c9316f864a25c947bad35e381e34c05d80ff8[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue May 27 22:40:36 2025 +0400
+
+    add apiSlice.js
+
+[33mcommit c8d96ddb43757fad3a75049d7ff4cb40087d0cb3[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue May 27 15:58:30 2025 +0400
+
+    Remove secret token from code
+
+[33mcommit 4ae523f96e1c92bba6e11ec35062335bde68cad4[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Mon May 26 12:45:49 2025 +0400
+
+    update nav bar
+
+[33mcommit de850202da43694aad7de9146a3f63062be9ce1f[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Fri May 23 23:10:21 2025 +0400
+
+    add images to project cards
+
+[33mcommit 4ce8d412b410dcc27c76c1a8a4089fc6bc889e41[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Fri May 23 22:24:08 2025 +0400
+
+    change project card display info
+
+[33mcommit 755daf9397fab14610e00c55f428a26cae2210f2[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Fri May 23 22:13:05 2025 +0400
+
+    add random urls to the project cards
+
+[33mcommit cb5c6c49e05ae4d90809a42113e230fb61b910de[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Fri May 23 21:31:33 2025 +0400
+
+    comment out About Me section
+
+[33mcommit bcb620240370821c6e0a6de44f4c6b21e6fc6031[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 22 13:15:16 2025 +0400
+
+    Save work before switching branch
+
+[33mcommit 3f88e9fae946c03beb9a3b4bd210b948f5685e71[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 22 12:53:35 2025 +0400
+
+    add another project card placeholder
+
+[33mcommit 8cd32a5eee5a209204b58889642d19642339dd26[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 22 12:52:06 2025 +0400
+
+    update primary color from blue to green
+
+[33mcommit ee574bd57a8f84ada41a3eaec1920326931b8f1c[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Thu May 22 12:37:03 2025 +0400
+
+    remove SocialLinks from Hero
+
+[33mcommit ab8d5a578647819da6320226742c52a1c338f7ba[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Wed May 21 12:11:45 2025 +0400
+
+    Skills/Project Cards updated
+
+[33mcommit 806d573d8971ae1943b82e477d57d254c567b4ed[m
+Author: RyleeJames2004 <156281585+RyleeJames2004@users.noreply.github.com>
+Date:   Tue May 20 23:54:13 2025 +0400
+
+    Update README.md
+
+[33mcommit b817b67b2632f587221006c40445f7a3cc0ac48a[m
+Author: Rylee Rosenlieb <ryleerosenlieb@Rylees-MacBook-Air.local>
+Date:   Tue May 20 23:40:35 2025 +0400
+
+    Initial commit with cloned template

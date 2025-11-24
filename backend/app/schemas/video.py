@@ -7,7 +7,6 @@ class VideoCreate(BaseModel):
     description: Optional[str] = Field(None,)
     url: str = Field(...,)
     quizzes: List[QuizCreate]
-
     
 class VideoOut(BaseModel):
     id: int
@@ -17,6 +16,8 @@ class VideoOut(BaseModel):
     url: str
     quizzes: List[QuizOut]
     
+    class Config:
+        from_attributes = True
 class VideoUpdate(BaseModel):
     title: Optional[str] = None
     subtitle: Optional[str] = None

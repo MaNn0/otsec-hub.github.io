@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, Query, HTTPException
 from fastapi.responses import JSONResponse
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
@@ -9,6 +9,8 @@ from app.database import get_db
 from typing import List
 from dotenv import load_dotenv
 from app.routes.announcements import add_announcement
+from sqlalchemy import asc
+from app.schemas.pagination import PaginatedResponse
 
 load_dotenv()
 router = APIRouter()
@@ -63,10 +65,33 @@ def add_video(video: VideoCreate, db: Session = Depends(get_db)):
         db.rollback()
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
-@router.get("/get_videos", response_model=List[VideoOut])
-def get_videos(db: Session = Depends(get_db)):
-    videos = db.query(Video).all()
-    return videos
+@router.get("/get_videos", response_model=PaginatedResponse[VideoOut])
+async def get_videos(
+    page: int = Query(1, ge=1),
+    limit: int = Query(9, ge=1),
+    db: Session = Depends(get_db),
+):
+    # Order videos by id ascending
+    videos_query = db.query(Video).order_by(asc(Video.id))
+    total = videos_query.count()
+
+    videos = videos_query.offset((page - 1) * limit).limit(limit).all()
+
+    # Convert SQLAlchemy objects to Pydantic schemas using from_orm
+    video_items = [VideoOut.from_orm(v) for v in videos]
+
+    if not video_items and total > 0 and page > 1:
+        raise HTTPException(status_code=404, detail="Page not found")
+    elif not video_items and total == 0:
+        pass  # Will return empty list
+
+    return PaginatedResponse(
+        total=total,
+        page=page,
+        limit=limit,
+        items=video_items
+    )
+
 
 @router.get("/get_video/{video_id}", response_model=VideoOut)
 def get_video(video_id: int, db: Session = Depends(get_db)):

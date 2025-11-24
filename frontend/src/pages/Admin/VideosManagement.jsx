@@ -50,7 +50,7 @@ color: ${({ theme }) => theme.name === "light" ? "rgba(33, 37, 41, 0.85)" : "rgb
 
 export default function VideoManagement({ children }) {
     const [videos, setVideos] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState("");
 
     const theme = useTheme();
@@ -59,7 +59,7 @@ export default function VideoManagement({ children }) {
         async function fetchData() {
             try {
                 const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/api/get_videos`);
-                setVideos(response.data);
+                setVideos(response.data.items);
                 setLoading(false)
             } catch (error) {
                 setLoading(true)
