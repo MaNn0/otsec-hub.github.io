@@ -70,9 +70,9 @@ const Videos = () => {
     }
   };
 
-  const filteredVideos = videos.filter((video) =>
-    video.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredVideos = Array.isArray(videos)
+    ? videos.filter(video => video.title.toLowerCase().includes(searchTerm.toLowerCase()))
+    : [];
 
   return (
     <>
