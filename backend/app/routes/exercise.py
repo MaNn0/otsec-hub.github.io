@@ -39,16 +39,16 @@ async def create_exercise(
     return new_exercise
 
 @router.get('/get_exercises', response_model=List[ExerciseOut])
-async def get_exercises(db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
-    
+async def get_exercises(db: Session = Depends(get_db)):
+    # Removed , current_user: User = Depends(get_current_user) to make excercises public
     exercises = db.query(Exercise).all()
     if not exercises:
         raise HTTPException(status_code=404, detail="Exercise not found")
     return exercises
 
 @router.get('/get_exercise/{id}', response_model=ExerciseOut)
-async def get_lab(id: int, db: Session = Depends(get_db), current_user: User = Depends(get_current_user)):
-    
+async def get_lab(id: int, db: Session = Depends(get_db)):
+# Removed , current_user: User = Depends(get_current_user) to make excercises public
     exercise = db.query(Exercise).filter(Exercise.id == id).first()
     if not exercise:
         raise HTTPException(status_code=404, detail="Exercise not found")
