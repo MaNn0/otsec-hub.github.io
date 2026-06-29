@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session, joinedload
 from app.database import get_db
-from app.models.exerciseSubmission import ExerciseSubmission
+from app.models.ExerciseSubmission import ExerciseSubmission
 from app.schemas.exerciseSubmission import ExerciseSubmissionCreate, ExerciseSubmissionOut, ExerciseSubmissionUpdate
 from app.auth.auth import get_current_user
 from app.models.user import User

@@ -11,7 +11,8 @@ load_dotenv()
 
 app = FastAPI()
 
-origins = [os.getenv("REACT_DOT_SERVER").strip()]
+origins = [os.getenv("REACT_DOT_SERVER").strip(),
+    "http://localhost:3000"] #Allow Localhost for development
 
 app.add_middleware(
     CORSMiddleware,

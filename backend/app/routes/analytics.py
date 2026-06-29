@@ -4,7 +4,7 @@ from app.models.user import User
 from app.models.video import Video
 from app.models.lab import Lab
 from app.models.exercise import Exercise
-from app.models.exerciseSubmission import ExerciseSubmission
+from app.models.ExerciseSubmission import ExerciseSubmission
 from app.database import get_db
 
 router = APIRouter()
